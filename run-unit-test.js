@@ -20,8 +20,6 @@ start().catch((error) => {
  *  splitting across many processes.
  * @property {number} [totalShards] - Total number of processes tests will be
  *  split across.
- * @property {number} [maxWorkers] - Total number of workers to use when
- *  running tests.
  */
 
 /**
