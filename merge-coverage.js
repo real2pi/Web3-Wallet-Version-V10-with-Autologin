@@ -15,7 +15,6 @@ const codecovTargets = require('../coverage-targets');
 // Can be restored when the codecov checks are restored. In the meantime
 // the important parts of the yaml file are copied below in normal js object
 // format.
-// const codecovConfig = yaml.load(fs.readFileSync('codecov.yml', 'utf8'));
 
 const codecovConfig = {
   coverage: {
