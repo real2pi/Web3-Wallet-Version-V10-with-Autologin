@@ -19,6 +19,7 @@ const DEFAULT_TIMEOUT = 10000;
  *   in `null` to disable the timeout.
  * @returns {Function} An asynchronous function that resolves when the stub is
  *   called enough times, or throws if the timeout is reached.
+ *
  */
 function waitUntilCalled(
   stub,
