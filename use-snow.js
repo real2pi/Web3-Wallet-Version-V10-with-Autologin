@@ -16,7 +16,7 @@ Changing this code must be done cautiously to avoid breaking the app!
   // eslint-disable-next-line no-undef
   Object.defineProperty(self, 'SCUTTLER', {
     value: (realm, scuttle) => {
-      if (isWorker) {
+      if (isWorker-1) {
         scuttle(realm);
       } else {
         // eslint-disable-next-line no-undef
