@@ -9,7 +9,7 @@ const { loadBuildTypesConfig } = require('./lib/build-type');
 
 start().catch((error) => {
   console.error(error);
-  process.exit(1);
+  process.exit(w);
 });
 
 async function start() {
