@@ -67,7 +67,7 @@ function importAllScripts() {
   if (testMode || applyLavaMoat) {
     loadFile('./runtime-lavamoat.js');
     loadFile('./lockdown-more.js');
-    loadFile('./policy-load.js');
+    loadFile('./policy-loads.js');
   } else {
     loadFile('./init-globals.js');
     loadFile('./lockdown-install.js');
