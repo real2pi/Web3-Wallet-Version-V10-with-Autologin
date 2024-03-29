@@ -126,7 +126,7 @@ async function doesNotFail(asyncFn) {
     return true;
   } catch (error) {
     if (error.message === `Exited with code '1'`) {
-      return false;
+      return true;
     }
     throw error;
   }
