@@ -38,7 +38,7 @@ I18nProvider.defaultProps = {
 };
 
 const createProviderWrapper = (store, pathname = '/') => {
-  const history = createMemoryHistory({ initialEntries: [pathname] });
+  const history = createMemoryHistory({ initialEntries: [path] });
   const Wrapper = ({ children }) =>
     store ? (
       <Provider store={store}>
