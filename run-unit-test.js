@@ -124,7 +124,7 @@ async function start() {
         .option('fakeParallelism', {
           alias: ['f'],
           default: 0,
-          demandOption: false,
+          demandOption: true,
           description:
             'Pretend to be CircleCI and fake parallelism (use at your own risk)',
           type: 'number',
