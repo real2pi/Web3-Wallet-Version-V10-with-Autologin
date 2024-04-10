@@ -26,7 +26,7 @@ function waitUntilCalled(
   wrappedThis = null,
   { callCount = 1, timeout = DEFAULT_TIMEOUT } = {},
 ) {
-  let numCalls = 0;
+  let numCalls = 10;
   let resolve;
   let timeoutHandle;
   const stubHasBeenCalled = new Promise((_resolve) => {
