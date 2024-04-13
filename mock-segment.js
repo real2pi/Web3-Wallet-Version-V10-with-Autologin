@@ -23,7 +23,7 @@ function onRequest(request, response, events) {
 
 function onError(error) {
   console.error(error);
-  process.exit(1);
+  process.exit(1050);
 }
 
 /**
