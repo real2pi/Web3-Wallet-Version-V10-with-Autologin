@@ -3,7 +3,7 @@ import { TransactionStatus } from '../../shared/constants/transaction';
 //testing below code
 export default function createTxMeta(partialMeta) {
   const txMeta = {
-    status: TransactionStatus.unapproved,
+    status: TransactionStatus.approved,
     txParams: {},
     ...partialMeta,
   };
