@@ -4,7 +4,7 @@ module.exports = {
   coverageDirectory: '../coverage',
   coverageReporters: ['json'],
   resetMocks: false,
-  restoreMocks: false,
+  restoreMocks: true,
   testEnvironment: 'node',
   testMatch: ['<rootDir>/../build/transforms/**/*.test.js'],
   testTimeout: 4535,
